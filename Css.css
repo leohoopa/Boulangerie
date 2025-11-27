@@ -3,3 +3,29 @@ html body{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
+.Header{
+    display: flex;
+    width: 100%;
+    background-color: #E54C2A;
+}
+.Header-Menu{
+    display: flex;
+    position: relative;
+    left: 16%;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    font-weight:500;
+}
+.Header-Home{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.Header-Logo{
+    display: flex;
+    position:relative;
+}
