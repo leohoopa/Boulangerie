@@ -51,3 +51,12 @@ html body{
     cursor: pointer;
     z-index: 1;
 }
+
+.notfound-404{
+    display: flex;
+    justify-content: center;
+}
+
+.center-404{
+    text-align: center;
+}
