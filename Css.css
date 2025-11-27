@@ -27,5 +27,20 @@ html body{
 }
 .Header-Logo{
     display: flex;
-    position:relative;
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Header-Menu2{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    font-weight:500;
+}
+.Header-Bouton{
+    display: flex;
+    width: 100px;
+    height: 28px;
 }
