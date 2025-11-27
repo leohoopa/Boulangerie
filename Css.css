@@ -54,10 +54,21 @@ html body{
 .notfound-404{
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .center-404{
     text-align: center;
+}
+
+.home-404{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .button-404 {
