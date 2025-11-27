@@ -60,6 +60,18 @@ html body{
 .center-404{
     text-align: center;
 }
+
+.button-404 {
+    padding: 16px 35px;
+    background-color: #e54a2c;
+    color: white;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 .Header{
     display: flex;
     width: 100%;
