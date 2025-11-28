@@ -12,6 +12,9 @@ html body{
 .gray{
     color: gray;
 }
+
+/*------FOOTER------*/
+
 .footer-bg{
     width:100%;
     background-image: url();
@@ -50,6 +53,8 @@ html body{
     font-size: 14px;
     cursor: pointer;
 }
+
+/*------404 PAGE------*/
 
 .notfound-404{
     display: flex;
