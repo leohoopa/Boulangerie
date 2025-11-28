@@ -87,6 +87,33 @@ html body{
 }
 
 /*------BLOG------*/
+
+.blocflex-blog {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+
+.textwrap-blog{
+    flex-wrap: wrap;
+    width: 80%;
+    line-height: 35px;
+    font-size: 1.2em;
+}
+
+.title-blog{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.timeflex-blog{
+    display: flex;
+    gap: 10px;
+}
 /*------HEADER------*/
 .Header{
     display: flex;
