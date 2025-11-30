@@ -13,6 +13,10 @@ html body{
     color: gray;
 }
 
+.black{
+    color: black;
+}
+
 /*------FOOTER------*/
 
 .footer-bg{
@@ -88,32 +92,104 @@ html body{
 
 /*------BLOG------*/
 
-.blocflex-blog {
+/* CONTAINER GLOBAL */
+
+.blog-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+
+/* BLOC PRINCIPAL  */
+
+.blog-item {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    margin: 40px auto;
-    max-width: 1000px;
-}
-
-
-.textwrap-blog{
+    align-items: flex-start;
+    gap: 30px;
     flex-wrap: wrap;
-    width: 20%
-    line-height: 35px;
-    font-size: 1em;
 }
 
-.title-blog{
+
+/* IMAGE */
+
+.blog-image {
+    width: 370px;       
+    flex-shrink: 0;
+}
+
+.blog-image img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+
+/* CONTENU TEXTE */
+
+.blog-content {
+    flex: 1;
+}
+
+.blog-title {
     font-size: 32px;
     font-weight: bold;
+    margin: 0 0 15px 0;
 }
 
-.timeflex-blog{
-    display: flex;
-    gap: 10px;
+.blog-meta p {
+    font-size: 14px;
+    color: gray;
+    margin: 0 0 20px 0;
 }
+
+.blog-text {
+    font-size: 1.1em;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 0 25px 0;
+}
+
+
+/* BOUTON */
+
+.blog-button {
+    display: inline-block;
+    color: white;
+    padding: 3px 8px 3px 8px;
+    border-radius: 5px;
+    background: #E54C2A;
+    font-size: 14px;
+}
+
+.blog-circlerow{
+    display: flex;
+    gap: 3%;
+    margin-left: 15%;
+    transition: 0.3s ease;
+}
+
+.blog-circlerow p{
+    background-color: #b4b4b4 ;
+    border-radius: 25px ;
+    padding: 7px 11px 7px 11px;
+}
+
+.blog-circlerow:hoover{
+    background-color: #E54C2A ;
+}
+
+.blog-midbanner{
+    background-color: #E54C2A ;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+    padding-left: 15%;
+}
+
+
+
 /*------HEADER------*/
 .Header{
     display: flex;
