@@ -91,7 +91,7 @@ html body{
 .blocflex-blog {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 25px;
     margin: 40px auto;
     max-width: 1000px;
@@ -100,9 +100,9 @@ html body{
 
 .textwrap-blog{
     flex-wrap: wrap;
-    width: 80%;
+    width: 20%
     line-height: 35px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .title-blog{
