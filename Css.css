@@ -17,6 +17,14 @@ html body{
     color: black;
 }
 
+.orange{
+    color: #E54C2A;
+}
+
+.bold{
+    font-size: bold;
+}
+
 /*------FOOTER------*/
 
 .footer-bg{
@@ -201,6 +209,25 @@ html body{
     line-height: 30px;
 }
 
+/*------ CATEGORIE ------*/
+
+.category-container-item{
+    max-width: 250px;
+    padding: 0 30px;
+    border: 1px solid #b8b8b8;
+}
+
+.category-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-image {
+    width: 250px;       
+    flex-shrink: 0;
+}
 
 
 /*------HEADER------*/
