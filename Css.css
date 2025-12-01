@@ -211,6 +211,10 @@ html body{
     line-height: 30px;
 }
 
+.about-lineheight {
+    line-height: 1.6em;
+}
+
 /*------ CATEGORIE ------*/
 
 .category-title{
