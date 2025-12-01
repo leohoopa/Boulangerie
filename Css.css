@@ -2,9 +2,6 @@ html body{
     width:100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-<<<<<<< Updated upstream
-}
-=======
 }
 .EndPage{
     display: flex;
@@ -34,4 +31,233 @@ html body{
 .InfoIta{
     color: gray
 }
->>>>>>> Stashed changes
+
+.title1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.gray{
+    color: gray;
+}
+
+.black{
+    color: black;
+}
+
+/*------FOOTER------*/
+
+.footer-bg{
+    width:100%;
+    background-image: url();
+    background-color:#F6F7FA;
+    padding: 35px 0px 35px 0px;
+}
+
+.footer-bg p{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.footer-subscribe input {
+    padding: 16px 16px;
+    border: 1px solid #ddd;
+    border-radius: 30px 0 0 30px;
+    width: 300px;
+    font-size: 14px;
+    border-right: none;
+    outline: none;
+}
+
+.footer-subscribe button {
+    padding: 16px 35px;
+    background-color: #e54a2c;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*------404 PAGE------*/
+
+.notfound-404{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.center-404{
+    text-align: center;
+}
+
+.home-404{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.button-404 {
+    padding: 14px 30px;
+    color: white;
+    background-color: rgb(197, 197, 197);
+    display: inline-block;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 10px;
+    color: black;
+}
+
+/*------BLOG------*/
+
+/* CONTAINER GLOBAL */
+
+.blog-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+
+/* BLOC PRINCIPAL  */
+
+.blog-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+/* IMAGE */
+
+.blog-image {
+    width: 370px;       
+    flex-shrink: 0;
+}
+
+.blog-image img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+
+/* CONTENU TEXTE */
+
+.blog-content {
+    flex: 1;
+}
+
+.blog-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+.blog-meta p {
+    font-size: 14px;
+    color: gray;
+    margin: 0 0 20px 0;
+}
+
+.blog-text {
+    font-size: 1.1em;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 0 25px 0;
+}
+
+
+/* BOUTON */
+
+.blog-button {
+    display: inline-block;
+    color: white;
+    padding: 3px 8px 3px 8px;
+    border-radius: 5px;
+    background: #E54C2A;
+    font-size: 14px;
+}
+
+.blog-circlerow{
+    display: flex;
+    gap: 3%;
+    margin-left: 15%;
+    transition: 0.3s ease;
+}
+
+.blog-circlerow p{
+    background-color: #b4b4b4 ;
+    border-radius: 25px ;
+    padding: 7px 11px 7px 11px;
+}
+
+.blog-circlerow:hoover{
+    background-color: #E54C2A ;
+}
+
+.blog-midbanner{
+    background-color: #E54C2A ;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+    padding-left: 15%;
+}
+
+
+
+/*------HEADER------*/
+.Header{
+    display: flex;
+    width: 100%;
+    background-color: #E54C2A;
+}
+.Header-Menu{
+    display: flex;
+    position: relative;
+    left: 16%;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    font-weight:500;
+}
+.Header-Home{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.Header-Logo{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Header-Menu2{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    font-weight:500;
+}
+.Header-Bouton{
+    display: flex;
+    width: 100px;
+    height: 28px;
+}
+
