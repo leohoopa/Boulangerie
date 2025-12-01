@@ -22,9 +22,18 @@ html body{
 }
 
 .bold{
-    font-size: bold;
+    font-weight: bold;
+    font-size: 20px;
 }
 
+.home{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 /*------FOOTER------*/
 
 .footer-bg{
@@ -79,14 +88,7 @@ html body{
     text-align: center;
 }
 
-.home-404{
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eeeeee;
-    margin-left: 15%;
-    margin-right: 15%;
-}
+
 
 .button-404 {
     padding: 14px 30px;
@@ -211,10 +213,15 @@ html body{
 
 /*------ CATEGORIE ------*/
 
+.category-title{
+    font-size: 2em;
+    margin-left: 17.5%;
+}
+
 .category-container-item{
     max-width: 250px;
     padding: 0 30px;
-    border: 1px solid #b8b8b8;
+    border: 1px solid #eeeeee;
 }
 
 .category-row{
@@ -227,6 +234,25 @@ html body{
 .category-image {
     width: 250px;       
     flex-shrink: 0;
+}
+
+.category-border-lower{
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+.category-midbanner{
+    background-color: #E54C2A ;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+    padding-left: 15%;
+    margin-top: 20px;
 }
 
 
