@@ -2,4 +2,36 @@ html body{
     width:100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+<<<<<<< Updated upstream
 }
+=======
+}
+.EndPage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+.EndPage .iconBasBouffe{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.EndPage .GB404{
+    font-weight: bold;
+}
+ .GB404{
+    flex-wrap: wrap;
+}
+.EndPage .prixCouleur{
+    color: red;
+    flex-wrap: wrap;
+}
+.InfoIta{
+    color: gray
+}
+>>>>>>> Stashed changes
