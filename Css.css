@@ -188,6 +188,19 @@ html body{
     padding-left: 15%;
 }
 
+/*------A PROPOS------*/
+
+.about-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+.about-fontsize {
+    font-size: 2em;
+    line-height: 30px;
+}
+
 
 
 /*------HEADER------*/
