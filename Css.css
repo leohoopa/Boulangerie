@@ -76,14 +76,13 @@ html body{
     width: 100%;
     background-color: #E54C2A;
     height: 130px;
-}
-.Header-Centre{
     justify-content: center;
 }
 .Header-Menu{
     display: flex;
-    margin-left: 15%;
     align-items: center;
+    position: relative;
+    right: 15%;
     gap: 25px;
     color: white;
     font-weight:500;
@@ -115,7 +114,8 @@ html body{
 }
 .Header-Bouton{
     display: flex;
-    justify-content: flex-end;
+    position: relative;
+    left: 12%;
     width: 100px;
     height: 28px;
     margin-top: 50px;
