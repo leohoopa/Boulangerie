@@ -327,8 +327,12 @@ html body{
     border-bottom: none;
     border-left: none;
 }
-.Header-Bouton-Panier{
-    
+.Hamburger{
+    max-width: 100px;
+}
+.Header-Bouton{
+    position: relative;
+    left: 10%;
 }
 @media (max-width:1200px){
     .Header-Menu2{
