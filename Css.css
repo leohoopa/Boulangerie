@@ -183,6 +183,13 @@ html body{
     background-color: #b4b4b4 ;
     border-radius: 25px ;
     padding: 7px 11px 7px 11px;
+    transition: ease 0.3s;
+}
+
+.blog-circlerow p:hover{
+    background-color: #E54C2A ;
+    color: white;
+    
 }
 
 .blog-circlerow:hoover{
