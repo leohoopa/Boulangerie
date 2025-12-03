@@ -330,9 +330,8 @@ html body{
 .Hamburger{
     max-width: 100px;
 }
-.Header-Bouton{
-    position: relative;
-    left: 10%;
+.HBM{
+    display: none;
 }
 @media (max-width:1200px){
     .Header-Menu2{
@@ -340,5 +339,10 @@ html body{
     }
     .Header-Menu{
         display: none;
+    }
+    .HBM{
+        display: flex;
+        position: relative;
+        right: 45%;
     }
 }
