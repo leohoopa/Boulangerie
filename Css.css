@@ -265,12 +265,14 @@ html body{
     display: flex;
     width: 100%;
     background-color: #E54C2A;
+    height: 130px;
+    justify-content: center;
 }
 .Header-Menu{
     display: flex;
-    position: relative;
-    left: 16%;
     align-items: center;
+    position: relative;
+    right: 15%;
     gap: 25px;
     color: white;
     font-weight:500;
@@ -285,13 +287,16 @@ html body{
 }
 .Header-Logo{
     display: flex;
-    margin-left: 25%;
+    position:absolute;
     margin-top: 15px;
     margin-bottom: 15px;
+    width: 100%;
+    justify-content: center;
 }
 .Header-Menu2{
     display: flex;
-    margin-left: 10%;
+    position: relative;
+    left: 8%;
     align-items: center;
     gap: 25px;
     color: white;
@@ -299,6 +304,29 @@ html body{
 }
 .Header-Bouton{
     display: flex;
+    position: relative;
+    left: 12%;
     width: 100px;
     height: 28px;
+    margin-top: 50px;
+    gap: 25px;
+}
+.Header-Bouton-Search{
+    padding-right: 25px;
+    border: 1px solid;
+    border-color:rgba(255, 255, 255, 0.1);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.Header-Bouton-Parametre{
+    padding-right: 25px;
+    border: 1px solid;
+    border-color:rgba(255, 255, 255, 0.1);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.Header-Bouton-Panier{
+    
 }
