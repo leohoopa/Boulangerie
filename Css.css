@@ -328,7 +328,7 @@ html body{
     border-left: none;
 }
 .Hamburger{
-    max-width: 100px;
+    max-width: 40px;
 }
 .HBM{
     display: none;
@@ -344,5 +344,15 @@ html body{
         display: flex;
         position: relative;
         right: 45%;
+        height: 52px;
+        align-items: center;
+        top: 32%;
+        background-color: rgba(0, 0, 0, 0);
+        border-color: rgba(0, 0, 0, 0);
     }
+    .Header-Bouton{
+        left: 34%;
+    }
+}
+@media (max-width:768px){
 }
