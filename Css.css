@@ -330,3 +330,11 @@ html body{
 .Header-Bouton-Panier{
     
 }
+@media (max-width:1200px){
+    .Header-Menu2{
+        display: none;
+    }
+    .Header-Bouton{
+        left: 0%;
+    }
+}
