@@ -82,8 +82,7 @@ html body{
 }
 .Header-Menu{
     display: flex;
-    position: relative;
-    left: 15%;
+    margin-left: 15%;
     align-items: center;
     gap: 25px;
     color: white;
@@ -116,8 +115,7 @@ html body{
 }
 .Header-Bouton{
     display: flex;
-    position: relative;
-    justify-content: right;
+    justify-content: flex-end;
     width: 100px;
     height: 28px;
     margin-top: 50px;
