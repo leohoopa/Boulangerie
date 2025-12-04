@@ -248,12 +248,16 @@ html, body{
 .notfound-404{
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
 
 .center-404{
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 6%;
+}
+.marginN-404{
+    margin-bottom: 0;
 }
 
 
@@ -551,7 +555,7 @@ html, body{
     .Header-Search-Bar{
         display:flex;
         position: relative;
-        left: 5%;
+        margin-left: 5%;
         margin-top: -60px;
         margin-bottom: 40px;
         color: white;
@@ -581,6 +585,9 @@ html, body{
         margin-left: 4%;
     }
     .notfound-404{
+    }
+    .NotFoudScale{
+    width: 100%;
     }
 }
 @media (max-width:480px){
