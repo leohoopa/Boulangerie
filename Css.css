@@ -512,6 +512,9 @@ html, body{
 .Header-Search-Bar{
     display: none;
 }
+.SearchIMG{
+    width: 100%;
+}
 @media (max-width:1200px){
     .Header-Menu2{
         display: none;
@@ -539,17 +542,8 @@ html, body{
     .Disparue{
         display: none;
     }
-    .Header-Bouton{
-        left: 40%;    
-    }
-}
-@media (max-width:480px){
-    .Header{
+     .Header{
         height: 220px;
-    }
-    .Header-Bouton{
-        top: 28%;
-        left: 36%;
     }
     .HBM{
         top: 46%;
@@ -558,8 +552,8 @@ html, body{
         display:flex;
         position: relative;
         left: 5%;
-        margin-top: -16%;
-        margin-bottom: 22%;
+        margin-top: -60px;
+        margin-bottom: 40px;
         color: white;
     }
     .Header-Search-Bar input{
@@ -568,5 +562,27 @@ html, body{
         border-color: rgba(0, 0, 0, 0);
         color: white;
     }
+    .Header-Search-Bar ::placeholder{
+        color: white;
+        padding-left: 3%;
+    }
+        .Header-Bouton{
+        top: 28%;
+        left: 36%;
+    }
+    .SearchButon{
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-color: rgba(0, 0, 0, 0);
+    }
+    .home{
+        margin-left: 4%;
+    }
+    .notfound-404{
+    }
+}
+@media (max-width:480px){
 }
 
