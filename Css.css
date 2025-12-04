@@ -1,18 +1,187 @@
-html body{
-    width:100%;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Pacifico&display=swap');
 
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.EndPage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;               
+    align-items: center;     
+    text-align: center;      
+    width: auto;
+    min-height: 100vh;       
+}
+.EndPage .iconBasBouffe{
+    width: 100px;
+    height: 100px;
+    display: block; 
+    object-fit: cover;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+}
+.footer-columns{
+    display: flex;
+    gap: 24px;
+    align-items: flex-start; 
+}
+.footer-columns > * {
+    flex: 0 0 220px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.AboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+}
+.AboutUs h2, .AboutUs p, .AboutUs .info-item{ text-align: left; }
+.footer-columns > * h2{
+    align-self: flex-start;
+    text-align: left;
+}
+.NewProducts .product-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 6px 0;
+}
+.NewProducts .product-info{
+    text-align: left; 
+}
+.NewProducts .iconBasBouffe{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.NewProducts .product-title{
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.NewProducts .produitSecret{
+    display: none !important; 
+}
+@media (min-width: 481px) and (max-width: 766px){
+    .NewProducts .produitSecret{
+        display: flex !important; 
+        width: auto !important;    
+        margin-left: auto !important; 
+    }
+}
+.NewProducts .produitSecret{
+    align-self: flex-end;
+}
+.AboutUs .info-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-start; 
+    padding: 4px 0;
+}
+.AboutUs .info-item .iconBasBouffe{
+    width: 40px;
+    height: 40px;
+}
+.AboutUs .info-item .InfoIta{
+    margin: 0;
+    text-align: left; 
+    width: calc(100% - 48px); 
+}
+.Information p{
+    width: 100%;
+    text-align: left;
+    margin: 6px 0;
+    font-family: 'Playfair Display', 'Pacifico', serif;
+}
+@media (max-width: 767px){
+    .EndPage{
+        min-height: auto; 
+        padding: 30px 12px; 
+    }
+    .footer-columns{
+        flex-direction: column; 
+        align-items: center;    
+        gap: 18px;
+    }
+    .footer-columns > *{
+        flex: 1 1 auto; 
+        width: 100%;
+        max-width: 720px; 
+        align-items: center; 
+    }
+    .footer-columns > * h2{
+        align-self: center;
+        text-align: center;
+    }
+    .NewProducts .product-item{
+        flex-direction: row; 
+    }
+    @media (max-width: 420px){
+        .NewProducts .product-item{
+            flex-direction: column;
+            align-items: center;
+        }
+        .NewProducts .product-info{ text-align: center; }
+        .AboutUs .info-item{ justify-content: flex-start; }
+    }
+}
+.EndPage h2{
+    margin: 0 0 10px 0; 
+    padding-top: 6px;   
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.information-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.information-header .info-desc{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    text-align: left;
+}
+@media (max-width: 767px){
+    .information-header{
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+    .information-header .info-desc{
+        text-align: center;
+    }
+}
+.EndPage .GB404{
+    font-weight: bold;
+}
+ .GB404{
+    flex-wrap: wrap;
+}
+.EndPage .prixCouleur{
+    color: red;
+    flex-wrap: wrap;
+}
+.InfoIta{
+    color: gray;
+    text-align: center; 
+    margin: 8px 0;      
+}
 .title1{
     font-size: 24px;
     font-weight: bold;
 }
-
 .gray{
     color: gray;
 }
-
 .black{
     color: black;
 }
@@ -42,7 +211,6 @@ html body{
     background-color:#F6F7FA;
     padding: 35px 0px 35px 0px;
 }
-
 .footer-bg p{
     display: flex;
     justify-content: center;
@@ -330,3 +498,4 @@ html body{
 .Header-Bouton-Panier{
     
 }
+
