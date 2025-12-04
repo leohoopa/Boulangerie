@@ -34,6 +34,10 @@ html body{
     margin-left: 15%;
     margin-right: 15%;
 }
+
+/*------ ACCUEIL------*/
+
+
 /*------FOOTER------*/
 
 .footer-bg{
@@ -105,7 +109,7 @@ html body{
 /* CONTAINER GLOBAL */
 
 .blog-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 60px auto;
     padding: 0 30px;
 }
@@ -124,7 +128,7 @@ html body{
 /* IMAGE */
 
 .blog-image {
-    width: 370px;       
+    width: 375px;       
     flex-shrink: 0;
 }
 
@@ -146,11 +150,16 @@ html body{
     font-weight: bold;
     margin: 0 0 15px 0;
 }
+.blog-meta{
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    margin-right: 16.5%;
+}
 
 .blog-meta p {
     font-size: 14px;
     color: gray;
-    margin: 0 0 20px 0;
+    
 }
 
 .blog-text {
