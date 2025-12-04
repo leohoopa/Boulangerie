@@ -4,6 +4,11 @@ html body{
     padding: 0 0 0 0;
 }
 
+.font{
+    font-family: 'Playfiar Display';
+    font-family: 'Pacifico';
+}
+
 .title1{
     font-size: 24px;
     font-weight: bold;
@@ -36,6 +41,60 @@ html body{
 }
 
 /*------ ACCUEIL------*/
+
+.wlc-fz1{
+    font-size: 3em;
+}
+
+.wlc-container{
+   text-align: center;
+   margin: 0 auto;
+   background-image: url();
+}
+
+.wlc-container h1{
+   font-size: 5em;
+}
+
+.wlc-container2{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.wlc-container2 img{
+   width: 700px;
+}
+
+.wlc-width-text{
+   width: 700px;
+}
+
+.wlc-lh2{
+    line-height: 3em;;
+}
+
+.wlc-lh1{
+    line-height: 1.8em;;
+}
+
+.wlc-button{
+    border: #e54a2c 2px solid;
+    color: #e54a2c;
+    border-radius: 15px;
+    padding: 15px 25px 15px 25px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+
+.wlc-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 30px;
+}
+
 
 
 /*------FOOTER------*/
