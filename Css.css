@@ -62,7 +62,9 @@ html body{
 }
 
 .wlc-container2 img{
-   width: 700px;
+    position: relative;
+    top: -10px;
+    width: 700px;
 }
 
 .wlc-width-text{
@@ -75,6 +77,14 @@ html body{
 
 .wlc-lh1{
     line-height: 1.8em;;
+}
+
+.wlc-discover-font{
+    font-size: 2em;
+}
+
+.wlc-lh{
+    line-height: 1px;
 }
 
 .wlc-button{
@@ -91,6 +101,7 @@ html body{
 .wlc-flex{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     gap: 50px;
     margin-top: 30px;
 }
