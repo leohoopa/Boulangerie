@@ -176,7 +176,7 @@ html, body{
     margin: 8px 0;      
 }
 .title1{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
 .gray{
@@ -209,7 +209,7 @@ html, body{
     width:100%;
     background-image: url();
     background-color:#F6F7FA;
-    padding: 35px 0px 35px 0px;
+    padding: 65px 0px 35px 0px;
 }
 .footer-bg p{
     display: flex;
@@ -249,6 +249,7 @@ html, body{
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 40px;
 }
 
 .center-404{
@@ -256,7 +257,7 @@ html, body{
     font-size: 32px;
     margin-bottom: 6%;
 }
-.marginN-404{
+.marginN{
     margin-bottom: 0;
 }
 
