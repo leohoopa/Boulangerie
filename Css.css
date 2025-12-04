@@ -178,6 +178,9 @@ html body{
     gap: 3%;
     margin-left: 15%;
     transition: 0.3s ease;
+    z-index: -1;
+    margin-bottom: 5px;
+    align-items: center;
 }
 
 .blog-circlerow p{
@@ -185,6 +188,10 @@ html body{
     border-radius: 25px ;
     padding: 7px 11px 7px 11px;
     transition: ease 0.3s;
+}
+
+.blog-circlerow span{
+    margin-left: 57.5%;
 }
 
 .blog-circlerow p:hover{
@@ -197,13 +204,17 @@ html body{
     background-color: #E54C2A ;
 }
 
+
 .blog-midbanner{
+    position: relative;
     background-color: #E54C2A ;
     display: flex;
     flex-direction: row;
     gap: 40px;
     color: white;
     padding-left: 15%;
+    margin-top: -30px;
+    z-index: 2;
 }
 
 /*------A PROPOS------*/
