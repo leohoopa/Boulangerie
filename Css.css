@@ -14,6 +14,10 @@ html body{
     font-weight: bold;
 }
 
+.subtitle1{
+    font-size: 20px;
+}
+
 .gray{
     color: gray;
 }
@@ -106,7 +110,30 @@ html body{
     margin-top: 30px;
 }
 
+.wlc-midbanner{
+    background-color: #E54C2A;
+    display: flex;
+    justify-content: center;
+    margin: 0 25% 0 25%;
+    padding: 10px 0 10px 0;
 
+}
+
+.wlc-midbanner img{
+    position: relative;
+    top: 15px;
+
+}
+
+.wlc-midbanner p{
+    color: white;
+    border-right: #b4b4b4 1px solid;
+}
+
+.wlc-midbannerflex{
+    display: flex;
+    gap: 10px;
+}
 
 /*------FOOTER------*/
 
