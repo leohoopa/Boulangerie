@@ -104,36 +104,63 @@ html body{
 
 .wlc-flex{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 50px;
     margin-top: 30px;
+}
+
+
+@media (max-width: 767px) {
+    .wlc-container2 {
+        padding: 0 16px;
+        max-width: 700px;
+    }
+    .wlc-flex {
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 20px;
+    }
+    
+    .wlc-flex > div:first-child img {
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        display: block;
+        margin: 0 0 0 0; 
+    }
+    
+    .wlc-flex > .wlc-lh {
+        width: 100%;
+    }
 }
 
 .wlc-midbanner{
     background-color: #E54C2A;
     display: flex;
     justify-content: center;
-    margin: 0 25% 0 25%;
+    margin: 0 24.8% 24.8%;
     padding: 10px 0 10px 0;
 
 }
 
 .wlc-midbanner img{
-    position: relative;
-    top: 15px;
+    position: static;
+    top: 0;
 
 }
 
 .wlc-midbanner p{
     color: white;
-    border-right: #b4b4b4 1px solid;
 }
 
 .wlc-midbannerflex{
     display: flex;
     gap: 10px;
+    align-items: center;
 }
+
+
 
 /*------FOOTER------*/
 
@@ -428,3 +455,4 @@ html body{
     width: 100px;
     height: 28px;
 }
+
