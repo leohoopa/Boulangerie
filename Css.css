@@ -478,7 +478,9 @@ html, body{
     width: 100%;
     background-color: #E54C2A;
     height: 60px;
-    justify-content: center;
+}
+.Header-bis-Menu{
+    left: 18%;
 }
 .Header-Menu{
     display: flex;
