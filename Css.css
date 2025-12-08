@@ -276,6 +276,11 @@ html, body{
     font-size: 10px;
     color: black;
 }
+.Header-Link{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
 
 /*------BLOG------*/
 
@@ -302,7 +307,6 @@ html, body{
 
 .blog-image {
     width: 375px;       
-    flex-shrink: 0;
 }
 
 .blog-image img {
@@ -568,6 +572,11 @@ html, body{
     }
 }
 @media (max-width:768px){
+    .blog-image{
+        justify-content: center;
+    }
+    .blog-item{
+    }
 }
 @media (max-width:570px){
     .Disparue{
@@ -611,6 +620,9 @@ html, body{
     }
     .home{
         margin-left: 4%;
+    }
+    .Header-Bouton{
+        left: 42%;
     }
     .notfound-404{
     }
