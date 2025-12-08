@@ -473,6 +473,13 @@ html, body{
     height: 130px;
     justify-content: center;
 }
+.Header-bis{
+    display: flex;
+    width: 100%;
+    background-color: #E54C2A;
+    height: 60px;
+    justify-content: center;
+}
 .Header-Menu{
     display: flex;
     align-items: center;
@@ -481,6 +488,11 @@ html, body{
     gap: 25px;
     color: white;
     font-weight:500;
+}
+.Header-categories-marge{
+    display: flex;
+    position: relative;
+    left: 22%;
 }
 .Header-Home{
     background-color: rgba(0, 0, 0, 0);
@@ -517,7 +529,7 @@ html, body{
     margin-top: 54px;
     gap: 25px;
 }
-.Header-Bouton-Search{
+.Header-Bouton-Box{
     padding-right: 25px;
     border: 1px solid;
     border-color:rgba(255, 255, 255, 0.1);
