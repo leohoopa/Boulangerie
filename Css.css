@@ -68,7 +68,9 @@ html body{
 .wlc-container2 img{
     position: relative;
     top: -10px;
-    width: 700px;
+    width: 70%;
+    transform: scale(200%);
+    z-index: -1;
 }
 
 .wlc-width-text{
