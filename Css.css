@@ -141,7 +141,7 @@ html body{
     background-color: #E54C2A;
     display: flex;
     justify-content: center;
-    margin: 0 24.8% 24.8%;
+    margin: 0 24.8% 0 24.8%;
     padding: 10px 0 10px 0;
 
 }
@@ -162,6 +162,50 @@ html body{
     align-items: center;
 }
 
+.wlc-bg-img{
+    width: 100%;
+    background-color: #777777;
+    background-size: cover;
+    padding: 15rem 0 15rem 0;
+    margin: 50px 0 0 0 ;
+}
+
+.wlc-bg-img p{
+    color: white;
+}
+
+.wlc-img-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px; /* important */
+  margin: 0 auto;
+}
+
+.wlc-head {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.wlc-deco {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 115%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.wlc-bg-container{
+    margin: 0 auto;
+    line-height: 2rem;
+    font-size: 18px;
+    width: 800px;
+    text-align: center;
+}
 
 
 /*------FOOTER------*/
