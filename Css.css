@@ -50,6 +50,10 @@ html body{
     font-size: 3em;
 }
 
+.wlc-lh0 p{
+    margin: 0;
+}
+
 .wlc-container{
    text-align: center;
    margin: 0 auto;
@@ -163,21 +167,24 @@ html body{
 }
 
 .wlc-trending-container{
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 6rem;
 }
 
 .wlc-trending-flex{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 40px;
 }
 
 .wlc-product-imgSize{
     width: 300px;
 }
 
-.wlc-panera{
-    width: 200px;
+.wlc-panera img{
+    width: 100%;
 }
 
 .wlc-bg-img{
