@@ -162,11 +162,30 @@ html body{
     align-items: center;
 }
 
+.wlc-trending-container{
+    margin: 0 auto;
+}
+
+.wlc-trending-flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wlc-product-imgSize{
+    width: 300px;
+}
+
+.wlc-panera{
+    width: 200px;
+}
+
 .wlc-bg-img{
     width: 100%;
-    background-color: #777777;
+    background-image: url(assets/bg-testimonial_1c7bfccb-7834-409d-b6f4-0704b266fbfa.jpg.jpeg);
     background-size: cover;
-    padding: 15rem 0 15rem 0;
+    background-position: center;
+    padding: 15rem 0 10rem 0;
     margin: 50px 0 0 0 ;
 }
 
