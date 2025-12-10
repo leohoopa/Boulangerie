@@ -24,6 +24,75 @@ html, body{
     background-color: #f0f0f0;
     border-radius: 6px;
 }
+.EndPage .iconBas, .réseaux img{
+    height: 30px;
+}
+.EndPage .réseaux{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.EndPage .Bottom-footer {
+    width: 100%;
+    padding: 30px 0 40px 0;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    gap: 20px;
+}
+.Bottom-footer .LigneFooter p {
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+.EndPage .ligneFooter .lienWeb{
+    color: red;
+    font-weight: bold;
+}
+.EndPage .bottom-footer p {
+    color: gray;    
+    width: 350px;
+}
+.Bottom-footer .Reseaux img {
+    height: 22px;
+    width: 22px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.Bottom-footer .Reseaux {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.Bottom-footer .Reseaux img:hover {
+    opacity: 0.7;
+}
+.EndPage .Scroll-right {
+    position: absolute;
+    right: 28px;
+    top: 90%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background: #e76e53;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(30, 94, 255, 0.24);
+    z-index: 9999;
+}
+
 .footer-columns{
     display: flex;
     gap: 24px;
@@ -166,7 +235,7 @@ html, body{
  .GB404{
     flex-wrap: wrap;
 }
-.EndPage .prixCouleur{
+.EndPage .Price-Color{
     color: red;
     flex-wrap: wrap;
 }
