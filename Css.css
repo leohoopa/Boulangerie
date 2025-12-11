@@ -482,6 +482,9 @@ html, body{
 .Header-bis-Menu{
     left: 18%;
 }
+.Header-Menu2-Bis{
+    margin-left: 11.5%;
+}
 .Header-Menu{
     display: flex;
     align-items: center;
