@@ -46,6 +46,10 @@ html body{
 
 /*------ ACCUEIL------*/
 
+/* CAROUSSEL JS*/
+
+
+
 /* Font size */
 
 .wlc-fz1{
@@ -327,18 +331,33 @@ html body{
     width: 300px;
 }
 
+.wlc-lowbanner{
+    background-color: #E54C2A ;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+    padding-left: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
 
 
 /*------FOOTER------*/
 
 .footer-bg{
-    width:100%;
-    background-image: url();
+    background-image: url(assets\bg-footer.jpg);
+    background-size: cover;
     background-color:#F6F7FA;
-    padding: 35px 0px 35px 0px;
+    padding-top: 3rem;
 }
 
-.footer-bg p{
+
+.footer-up p{
     display: flex;
     justify-content: center;
 }
