@@ -421,4 +421,57 @@ html, body{
     width: 100px;
     height: 28px;
 }
+/* article page container */
+.article-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/* HEADER AVEC IMAGE + TITRE À DROITE */
+.article-header {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
 
+/* IMAGE */
+.article-header img {
+    width: 45%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #e5e5e5;
+}
+
+/* ZONE À DROITE */
+.article-info {
+    flex: 1;
+}
+
+.article-info h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.article-info .meta {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* RESUMÉ */
+.article-info .excerpt {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* TEXTE DE L'ARTICLE */
+.article-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
