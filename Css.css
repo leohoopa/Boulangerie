@@ -574,6 +574,11 @@ html, body{
 .SearchIMG{
     width: 100%;
 }
+.Produit{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 .Produit-Image-Colun{
     display: flex;
     flex-direction: column;
@@ -584,6 +589,14 @@ html, body{
 }
 .Produit-Image-Taille{
     width: 600px;
+}
+.Produit-Sticky{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+    position:sticky;
+    margin-left: 2%;
 }
 @media (max-width:1200px){
     .Header-Menu2{
