@@ -46,13 +46,38 @@ html body{
 
 /*------ ACCUEIL------*/
 
+/* Font size */
+
 .wlc-fz1{
     font-size: 3em;
+}
+
+.wlc-fz2{
+    font-size: 2em;
 }
 
 .wlc-lh0 p{
     margin: 0;
 }
+
+/* UPBANNER */
+
+.wlc-upbanner{
+    background-color: #e54a2c;   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-bottom: 100px;
+}
+
+.wlc-upbanner img{
+    background-color: #e54a2c;
+    box-shadow: #000000;
+    border-radius: 50%; 
+    padding: 20px;
+}
+
+/* BLOC 1 */
 
 .wlc-container{
    text-align: center;
@@ -81,6 +106,8 @@ html body{
    width: 700px;
 }
 
+/* line height */
+
 .wlc-lh2{
     line-height: 3em;;
 }
@@ -95,6 +122,17 @@ html body{
 
 .wlc-lh{
     line-height: 1px;
+}
+
+.wlc-button-shopnow{
+    border: #e54a2c 2px solid;
+    background-color: white;
+    color: #e54a2c;
+    border-radius: 35px;
+    padding: 0 20px 0 20px;
+    display: inline-block;
+    margin-top: 30px;
+
 }
 
 .wlc-button{
@@ -141,12 +179,14 @@ html body{
     }
 }
 
+/* BANNIERE INFO */
+
 .wlc-midbanner{
     background-color: #E54C2A;
     display: flex;
     justify-content: center;
-    margin: 0 24.8% 0 24.8%;
-    padding: 10px 0 10px 0;
+    margin: 10rem 25.5rem 0 25.5rem;
+    padding: 20px 0 20px 0;
 
 }
 
@@ -166,6 +206,8 @@ html body{
     align-items: center;
 }
 
+/* BLOC TRENDING */
+
 .wlc-trending-container{
     display: flex;
     justify-content: center;
@@ -176,23 +218,52 @@ html body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 100px;
 }
 
 .wlc-product-imgSize{
-    width: 300px;
+    width: 200px;
 }
 
 .wlc-panera img{
-    width: 100%;
+    width: 500px;
 }
+
+/* BLOC FEATURED */
+
+.wlc-featured-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.wlc-featured-banera img{
+    width: 500px;
+}
+
+.wlc-img-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 80px;
+}
+
+.wlc-img-row img{
+    width: 200px;
+}
+
+/* BLOC BG IMAGE + HOMME */
 
 .wlc-bg-img{
     width: 100%;
     background-image: url(assets/bg-testimonial_1c7bfccb-7834-409d-b6f4-0704b266fbfa.jpg.jpeg);
     background-size: cover;
     background-position: center;
-    padding: 15rem 0 10rem 0;
+    padding: 23rem 0 10rem 0;
     margin: 50px 0 0 0 ;
 }
 
@@ -232,6 +303,30 @@ html body{
     width: 800px;
     text-align: center;
 }
+
+/* BLOC LATEST NEWS */
+
+.wlc-news{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.wlc-latestnews-img-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0 0 0;
+}
+
+.wlc-lastnews-items{
+    width: 370px;
+}
+
+.wlc-lastnews-items p{
+    width: 300px;
+}
+
 
 
 /*------FOOTER------*/
@@ -481,6 +576,8 @@ html body{
     gap: 40px;
     color: white;
     padding-left: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: 20px;
 }
 
