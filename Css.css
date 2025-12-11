@@ -82,6 +82,7 @@ html, body{
     border-bottom: 1px solid #eeeeee;
     margin-left: 15%;
     margin-right: 15%;
+    color: grey;
 }
 
 /*------ ACCUEIL------*/
@@ -572,6 +573,17 @@ html, body{
 }
 .SearchIMG{
     width: 100%;
+}
+.Produit-Image-Colun{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 17%;
+    width: 600px;
+    gap: 50px;
+}
+.Produit-Image-Taille{
+    width: 600px;
 }
 @media (max-width:1200px){
     .Header-Menu2{
