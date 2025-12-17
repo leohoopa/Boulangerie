@@ -609,7 +609,7 @@ html, body{
 }
 .Produit-Description{
     display: flex;
-    flex:
+    flex-direction: row;
 }
 .Produit-Description-Menu{
     display: flex;
@@ -619,6 +619,35 @@ html, body{
     width: 10%;
 }
 .Produit-Description-Texte{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    width: 45%;
+    left: 24%;
+    border: 1px lightgrey solid;
+    padding-left: 1.5%;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+}
+.Produit-Poid{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Produit-Poid-Box{
+    border:#e54a2c solid 1px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.Produit-Quantiter{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    gap: 20px;
 }
 @media (max-width:1200px){
     .Header-Menu2{
