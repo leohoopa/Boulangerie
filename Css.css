@@ -58,7 +58,6 @@ html, body{
     font-size: 32px;
     font-weight: bold;
 }
-
 .gray{
     color: gray;
 }
@@ -69,11 +68,16 @@ html, body{
 .orange{
     color: #E54C2A;
 }
+.Produit-In-Stock{
+    color: green;
+    font-size: 20px;
+}
 
 .bold{
     font-weight: bold;
     font-size: 20px;
 }
+
 
 .home{
     text-align: left;
@@ -579,6 +583,9 @@ html, body{
     flex-direction: row;
     width: 100%;
 }
+.Produit-Line-Heigth{
+    line-height: 32px;
+}
 .Produit-Image-Colun{
     display: flex;
     flex-direction: column;
@@ -596,8 +603,22 @@ html, body{
     width: 600px;
     height: 100px;
     position: sticky;
-    top: 40%;
+    top: 0;
     margin-left: 2%;
+    bottom: 0;
+}
+.Produit-Description{
+    display: flex;
+    flex:
+}
+.Produit-Description-Menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+    width: 10%;
+}
+.Produit-Description-Texte{
 }
 @media (max-width:1200px){
     .Header-Menu2{
