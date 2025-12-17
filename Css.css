@@ -596,7 +596,7 @@ html, body{
     width: 600px;
     height: 100px;
     position: sticky;
-    top: 0;
+    top: 40%;
     margin-left: 2%;
 }
 @media (max-width:1200px){
