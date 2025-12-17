@@ -75,10 +75,12 @@ html body{
 }
 
 .wlc-upbanner img{
+    position: relative;
     background-color: #e54a2c;
-    box-shadow: #000000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 50%; 
     padding: 20px;
+    transform: scale(120%);
 }
 
 /* BLOC 1 */
@@ -175,12 +177,37 @@ html body{
         max-width: 360px;
         height: auto;
         display: block;
-        margin: 0 0 0 0; 
+        margin: 0 0 0 0;
+        transform: scale(110%); 
     }
     
     .wlc-flex > .wlc-lh {
         width: 100%;
     }
+
+    .wlc-midbanner{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 1110px) {
+    
+    .wlc-lastnews-items:last-child {
+    display: none;
+  }
+  .wlc-latestnews{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .wlc-lastnews-items:first-child {
+    display: none;
+  }
 }
 
 /* BANNIERE INFO */
@@ -191,7 +218,8 @@ html body{
     justify-content: center;
     margin: 10rem 25.5rem 0 25.5rem;
     padding: 20px 0 20px 0;
-
+    max-width: 1200px;
+    border-radius: 15px;
 }
 
 .wlc-midbanner img{
@@ -202,6 +230,7 @@ html body{
 
 .wlc-midbanner p{
     color: white;
+    align-items: center;
 }
 
 .wlc-midbannerflex{
