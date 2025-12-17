@@ -208,6 +208,26 @@ html body{
     .wlc-lastnews-items:first-child {
     display: none;
   }
+  /* Cacher l'image Pair (1ère image) de chaque ligne */
+    .wlc-img-row > div:nth-child(even) {
+        display: none;
+    }
+
+    /* Optionnel : centrer la 2e image */
+    .wlc-img-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wlc-img-row > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wlc-img-row img {
+        max-width: 100%;
+        height: auto;
+    }
 
 
 }
