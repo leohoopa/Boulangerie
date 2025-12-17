@@ -595,7 +595,8 @@ html, body{
     flex-direction: column;
     width: 600px;
     height: 100px;
-    position:sticky;
+    position: sticky;
+    top: 0;
     margin-left: 2%;
 }
 @media (max-width:1200px){
