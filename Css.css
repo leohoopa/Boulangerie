@@ -877,6 +877,10 @@ body .EndPage{
     font-size: 1rem;
     cursor: pointer;
 }
+.Header-MenuDeroulant-Options{
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+}
 /* Page Article*/
 .Header-Logo{
     display: flex;
