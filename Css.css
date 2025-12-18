@@ -44,6 +44,9 @@ html body{
     margin-right: 15%;
 }
 
+.right{
+    text-align: right;
+}
 /*------ ACCUEIL------*/
 
 /* CAROUSSEL JS*/
@@ -660,6 +663,50 @@ html body{
     padding-bottom: 5px;
     margin-top: 20px;
 }
+/*------ACCOUNT------*/
+
+
+.account-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.account-flex{
+    display: flex;
+}
+
+.account-flex input{
+
+    padding: 0px 4rem;
+}
+
+/*------BASKET------*/
+
+.basket-table{
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 900px;
+    border-collapse: collapse;
+    border: 1px solid #cfcfcf; 
+    background: #fff;
+}
+
+.basket-table th,
+.basket-table td{
+    border: 1px solid #e6e6e6; 
+    padding: 12px 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.basket-table th{
+    font-weight: 600;
+}
+
+.basket-table img{
+    max-width: 120px;
+    height: auto;
+}
 
 
 /*------HEADER------*/
@@ -704,4 +751,5 @@ html body{
     width: 100px;
     height: 28px;
 }
+
 
