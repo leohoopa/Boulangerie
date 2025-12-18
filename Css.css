@@ -1,27 +1,66 @@
-html body{
-    width:100%;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Pacifico&display=swap');
 
-.font{
-    font-family: 'Playfiar Display';
-    font-family: 'Pacifico';
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.EndPage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;               
+    align-items: center;     
+    text-align: center;      
+    width: auto;
+    min-height: 100vh;       
+}
+.EndPage .iconBasBouffe{
+    width: 100px;
+    height: 100px;
+    display: block; 
+    object-fit: cover;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+}
+.footer-columns{
+    display: flex;
+    gap: 24px;
+    align-items: flex-start; 
+}
+.footer-columns > * {
+    flex: 0 0 220px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.AboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+}
+.AboutUs h2, .AboutUs p, .AboutUs .info-item{ text-align: left; }
+.footer-columns > * h2{
+    align-self: flex-start;
+    text-align: left;
+}
+.NewProducts .product-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 6px 0;
 }
 
 .title1{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
-
-.subtitle1{
-    font-size: 20px;
-}
-
 .gray{
     color: gray;
 }
-
 .black{
     color: black;
 }
@@ -29,11 +68,16 @@ html body{
 .orange{
     color: #E54C2A;
 }
+.Produit-In-Stock{
+    color: green;
+    font-size: 20px;
+}
 
 .bold{
     font-weight: bold;
     font-size: 20px;
 }
+
 
 .home{
     text-align: left;
@@ -42,6 +86,7 @@ html body{
     border-bottom: 1px solid #eeeeee;
     margin-left: 15%;
     margin-right: 15%;
+    color: grey;
 }
 
 /*------ ACCUEIL------*/
@@ -417,8 +462,7 @@ html body{
     padding-top: 3rem;
 }
 
-
-.footer-up p{
+.footer-bg p{
     display: flex;
     justify-content: center;
 }
@@ -439,6 +483,9 @@ html body{
     border-right: none;
     outline: none;
 }
+.footer-subscribe-button{
+    margin-left: -80px;
+}
 
 .footer-subscribe button {
     padding: 16px 35px;
@@ -448,7 +495,6 @@ html body{
     border-radius: 30px 30px 30px 30px;
     font-size: 14px;
     cursor: pointer;
-    margin: 0 0 0 -40px;
 }
 
 /*------404 PAGE------*/
@@ -456,12 +502,17 @@ html body{
 .notfound-404{
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .center-404{
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 6%;
+}
+.marginN{
+    margin-bottom: 0;
 }
 
 
@@ -469,11 +520,16 @@ html body{
 .button-404 {
     padding: 14px 30px;
     color: white;
-    background-color: rgb(197, 197, 197);
+    background-color: #EBEBEB;
     display: inline-block;
     border-radius: 30px 30px 30px 30px;
     font-size: 10px;
     color: black;
+}
+.Header-Link{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 /*------BLOG------*/
@@ -501,7 +557,6 @@ html body{
 
 .blog-image {
     width: 375px;       
-    flex-shrink: 0;
 }
 
 .blog-image img {
@@ -667,15 +722,34 @@ html body{
     display: flex;
     width: 100%;
     background-color: #E54C2A;
+    height: 130px;
+    justify-content: center;
+}
+.Header-bis{
+    display: flex;
+    width: 100%;
+    background-color: #E54C2A;
+    height: 60px;
+}
+.Header-bis-Menu{
+    left: 18%;
+}
+.Header-Menu2-Bis{
+    margin-left: 11.5%;
 }
 .Header-Menu{
     display: flex;
-    position: relative;
-    left: 16%;
     align-items: center;
+    position: relative;
+    right: 15%;
     gap: 25px;
     color: white;
     font-weight:500;
+}
+.Header-categories-marge{
+    display: flex;
+    position: relative;
+    left: 22%;
 }
 .Header-Home{
     background-color: rgba(0, 0, 0, 0);
@@ -684,16 +758,20 @@ html body{
     font-weight:500;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
+    cursor: pointer;
 }
 .Header-Logo{
     display: flex;
-    margin-left: 25%;
+    position:absolute;
     margin-top: 15px;
     margin-bottom: 15px;
+    width: 10%;
+    justify-content: center;
 }
 .Header-Menu2{
     display: flex;
-    margin-left: 10%;
+    position: relative;
+    left: 8%;
     align-items: center;
     gap: 25px;
     color: white;
@@ -701,7 +779,222 @@ html body{
 }
 .Header-Bouton{
     display: flex;
+    position: relative;
+    left: 12%;
     width: 100px;
-    height: 28px;
+    height: 20px;
+    margin-top: 54px;
+    gap: 25px;
 }
+.Header-Bouton-Box{
+    padding-right: 25px;
+    border: 1px solid;
+    border-color:rgba(255, 255, 255, 0.1);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.Header-True-Bottom{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.
+.Header-Bouton-Parametre{
+    padding-right: 25px;
+    border: 1px solid;
+    border-color:rgba(255, 255, 255, 0.1);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.Hamburger{
+    max-width: 40px;
+    cursor: pointer;
+}
+.HBM{
+    display: none;
+}
+.Header-Search-Bar{
+    display: none;
+}
+.SearchIMG{
+    width: 100%;
+}
+.Produit{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Produit-Line-Heigth{
+    line-height: 32px;
+}
+.Produit-Image-Colun{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 17%;
+    width: 600px;
+    gap: 35px;
+}
+.Produit-Image-Taille{
+    width: 600px;
+}
+.Produit-Sticky{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    margin-left: 2%;
+    bottom: 0;
+    height: 600px;
+}
+.Produit-Description{
+    display: flex;
+    flex-direction: row;
+}
+.Produit-Description-Menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+    width: 10%;
+}
+.Produit-Description-Texte{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    width: 45%;
+    left: 24%;
+    border: 1px lightgrey solid;
+    padding-left: 1.5%;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+}
+.Produit-Poid{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Produit-Poid-Box{
+    border:#e54a2c solid 1px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.Produit-Quantiter{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    gap: 20px;
+    margin-top: 20px;
+}
+.Produit-Quantiter-Bouton-Esemble{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    border: lightgrey 1px solid;
+    border-radius: 20px;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Produit-Bouton{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+@media (max-width:1200px){
+    .Header-Menu2{
+        display: none;
+    }
+    .Header-Menu{
+        display: none;
+    }
+    .HBM{
+        display: flex;
+        position: relative;
+        right: 48%;
+        height: 52px;
+        align-items: center;
+        top: 32%;
+        background-color: rgba(0, 0, 0, 0);
+        border-color: rgba(0, 0, 0, 0);
+    }
+    .Header-Bouton{
+        left: 34%;
+    }
+}
+@media (max-width:768px){
+    .blog-image{
+        justify-content: center;
+    }
+    .blog-item{
+    }
+}
+@media (max-width:570px){
+    .Disparue{
+        display: none;
+    }
+     .Header{
+        height: 220px;
+    }
+    .HBM{
+        top: 46%;
+    }
+    .Header-Search-Bar{
+        display:flex;
+        position: relative;
+        margin-left: 5%;
+        margin-top: -60px;
+        margin-bottom: 40px;
+        color: white;
+    }
+    .Header-Search-Bar input{
+        background-color: black;
+        height: 40px;
+        border-color: rgba(0, 0, 0, 0);
+        color: white;
+    }
+    .Header-Search-Bar ::placeholder{
+        color: white;
+        padding-left: 3%;
+    }
+        .Header-Bouton{
+        top: 28%;
+        left: 36%;
+    }
+    .SearchButon{
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+    }
+    .home{
+        margin-left: 4%;
+    }
+    .Header-Bouton{
+        left: 42%;
+    }
+    .notfound-404{
+    }
+    .NotFoudScale{
+    width: 100%;
+    }
+}
+@media (max-width:480px){
+}
+
+
 

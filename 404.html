@@ -15,14 +15,14 @@
                 <option>TEST3</option>
                 <option>TEST4</option>
             </select>
-            <p>CATALOG</p>
+            <a class="Header-Link" href="Categorie.html" target="_blank">CATALOG</a>
             <select class="Header-Home" name="SHOP">
                 <option>SHOP</option>
                 <option>TEST2</option>
                 <option>TEST3</option>
                 <option>TEST4</option>
             </select>
-            <p>BLOG</p>
+            <a class="Header-Link" href="Blog.html" target="_blank">BLOG</a>
             <select class="Header-Home" name="PAGES">
                 <option>PAGES</option>
                 <option>TEST2</option>
@@ -30,39 +30,43 @@
                 <option>TEST4</option>
             </select>
         </div>
-        <div class="Header-Logo">
-            <img src="assets\logo.png" alt="Logo">
-        </div>
         <div class="Header-Menu2">
-            <p>BUY</p>
-            <p>CONTACT</p>
+            <a class="Header-Link" href="ChePas.html" target="_blank">BUY</a>
+            <a class="Header-Link" href="ChePas.html" target="_blank">CONTACT</a>
         </div>
         <div class="Header-Bouton">
-            <img src="assets\search--v5.png">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="assets\bg-btn-cart.png">
+            <img class="Header-Bouton-Box Disparue" src="assets\search--v5.png">
+            <img class="Header-Bouton-Box" src="assets\parametre.png">
+            <img class="" src="assets\bg-btn-cart-hover.png">
+        </div>
+        <div class="Header-Logo">
+            <img src="assets\logo.webp" alt="Logo">
+        </div>
+            <button popovertarget="Menu" class="HBM"><img class="Hamburger" src="assets/svg/hamburger.svg"></button>
         </div>
     </div>
+        <div class="Header-Search-Bar">
+            <input type="search" id="site-search" name="q" placeholder="Search..." style="width: 86%;"/>
+            <button popovertarget="SearchButon" class="SearchButon"><img class="SearchIMG" src="assets/search--v5.png"></button>
+        </div>
     <div class="home">
         <p>Home / <span class="orange">404 Not Found </span></p>
     </div>
     <div class="notfound-404">
-        <img src="assets\not-found.png">
+        <img class="NotFoudScale" src="assets\not-found.png">
     </div>
     <div class="center-404">
-        <p>OPPS! PAGE NOT FOUND</p>
+        <p class="marginN">OPPS! PAGE NOT FOUND</p>
         <p class="button-404">BACK TO HOME PAGES</p>
     </div>
     <div class="footer-bg">
         <div class="footer-up">
-            <p class="title1">Sign Up For Our Newsletter!</p>
-            <p>Get e-mail updates about our latest shop and special offers</p>
+            <p class="title1 marginN">Sign Up For Our Newsletter!</p>
+            <p>Get e-mail updates about our latest shop and special offers.</p>
         </div>
         <div class="footer-subscribe">
-            <input type="email" placeholder="Email Address">
-            <button>Subscribe</button>
+            <input type="email" placeholder="Email Address" style="width: 26%;">
+            <button class="footer-subscribe-button">Subscribe</button>
         </div>
     </div>
 </body>
