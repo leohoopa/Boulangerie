@@ -12,7 +12,6 @@ html, body{
 ========================= */
 /* début footer */
 body .EndPage{
-    background-color: #F6F7FA;
     font-family: 'Playfair Display', 'Pacifico';
     color: #222;
 }
@@ -527,6 +526,9 @@ body .EndPage{
     border-bottom: 1px solid #e5e5e5;
 }
 
+.home-article span{
+    color: red;
+}
 .home-article p {
     max-width: 1170px;
     margin: 0 auto;
@@ -535,6 +537,9 @@ body .EndPage{
     color: #999;
 }
  .EndPage-Subscribe{
+    background-color: #F6F7FA;
+ }
+ .EndPage-Article{
     background-color: #F6F7FA;
  }
 /* Fin Page Article*/
