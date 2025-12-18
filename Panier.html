@@ -7,12 +7,13 @@
     <link rel="stylesheet" type="text/css" href="Css.css">
 </head>
 <body>
+    <div class="home">
+        <p class="gray">Home / <span class="orange">Your Shopping Cart</span></p>
+    </div>
     <div class="basket-table-container">
+        <p class="basket-title fz-1">Shopping Cart</p>
         <div>
-            <p>Shopping Carte</p>
-        </div>
-        <div>
-            <table class="basket-table" align="center">
+            <table class="basket-table">
                 <tr>
                     <th>Image</th>
                     <th>Product name</th>
@@ -28,6 +29,29 @@
                     <th><p class="right">80$</p></th>
                 </tr>
             </table>
+        </div>
+        <div>
+            <details class="basket-details">
+                <summary class="basket-summary">Special Instruction For Seller ↓</summary>
+                <p>Lorem Ipsum Dolor Sit Amet</p>
+            </details>
+        </div>
+    </div>
+    <div class="basket-table-containermini">
+        <table class="basket-tablemini">
+            <tr>
+                <th colspan="2">Shipping, taxes and discount will be calculated at checkout</th>
+            </tr>
+            <tr>
+                <th>Subtotal</th>
+                <td>80.00$</td>
+            </tr>
+        </table>
+    </div>
+    <div class="basket-button-container">
+        <div class="basket-button">
+            <p>Continue Shopping</p>
+            <p>PROCEED TO CHECKOUT</p>
         </div>
     </div>
 </body>
