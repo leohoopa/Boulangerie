@@ -1018,6 +1018,9 @@ body .EndPage{
     background-color: white;
     cursor: pointer;
 }
+.Produit-Poid-Box:hover{
+    background-color: #e54a2c;
+}
 .Produit-Quantiter{
     display: flex;
     flex-direction: row;
