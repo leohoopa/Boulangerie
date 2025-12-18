@@ -665,6 +665,9 @@ html body{
 }
 /*------ACCOUNT------*/
 
+.basket-table-container{
+    width: 100%
+}
 
 .account-container{
     display: flex;
