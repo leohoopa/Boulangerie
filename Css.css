@@ -877,9 +877,9 @@ body .EndPage{
     font-size: 1rem;
     cursor: pointer;
 }
-.Header-MenuDeroulant-Options{
-    background-color: rgba(0, 0, 0, 0);
-    color: red;
+.Header-Home option{
+    color:#E54C2A;
+    background-color: black;
 }
 /* Page Article*/
 .Header-Logo{
@@ -925,7 +925,6 @@ body .EndPage{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
 }
-.
 .Header-Bouton-Parametre{
     padding-right: 25px;
     border: 1px solid;
@@ -933,6 +932,12 @@ body .EndPage{
     border-top: none;
     border-bottom: none;
     border-left: none;
+}
+.Header-Select-Bouton{
+    cursor: pointer;
+}
+.Header-Select-Bouton:active{
+    background-color: purple;
 }
 .Hamburger{
     max-width: 40px;
