@@ -10,6 +10,7 @@ html, body{
 /* =========================
    BASE
 ========================= */
+/* début footer */
 body .EndPage{
     font-family: 'Playfair Display', 'Pacifico';
     color: #222;
@@ -247,7 +248,7 @@ body .EndPage{
         margin-right: 8px;
     }
 }
-
+/* fin footer */
 .gray{
     color: gray;
 }
